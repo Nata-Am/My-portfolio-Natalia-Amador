@@ -3,6 +3,7 @@
   --default-font-family: "Poppins", sans-serif;
   --text-secondary-color: #272142;
   --background-color: #f9f7fe;
+  --button-color: #6c63ff;
 }
 
 .hero {
@@ -36,12 +37,19 @@
 }
 
 .hero .btn-contact-me {
-  background-color: #6c63ff;
+  background-color: var(--button-color);
   color: #ffffff;
-  border-radius: 4px;
+  border-radius: 30px;
   padding: 18px 30px;
   font-family: var(--default-font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
+}
+
+.hero .btn-contact-me:hover {
+  background-color: #ffffff;
+  color: var(--button-color);
+  border-color: var(--button-color);
+  transition: all 200ms ease-in-out;
 }
