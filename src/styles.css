@@ -17,10 +17,12 @@
   font-size: 96px;
   line-height: 128px;
   font-weight: 700;
+  color: black;
+  margin: 0 0 8 0;
 }
 
 .hero h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-size: 24px;
   color: var(--text-secondary-color);
   line-height: 36px;
@@ -52,4 +54,57 @@
   color: var(--button-color);
   border-color: var(--button-color);
   transition: all 200ms ease-in-out;
+}
+
+.intro p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.container h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+
+.container p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.container .btn-branding-outline {
+  background-color: #ffffff;
+  color: var(--button-color);
+  border-color: var(--button-color);
+  border-radius: 30px;
+  padding: 18px 30px;
+  font-family: var(--default-font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.project-description {
+  padding: 60px 60px;
+}
+
+@media (max-width: 960px) {
+  .project-description {
+    padding: 120px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  .container h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
