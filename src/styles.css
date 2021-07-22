@@ -179,3 +179,13 @@
     line-height: 1.5;
   }
 }
+
+.content .media-link {
+  text-decoration: none;
+  color: var(--button-color);
+  font-weight: 400;
+}
+
+.content .media-link:hover {
+  color: var(--text-secondary-color);
+}
