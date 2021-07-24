@@ -35,7 +35,7 @@
 .hero {
   background-color: var(--background-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 60px 20px;
 }
 
 .hero h1 {
@@ -116,7 +116,7 @@
 }
 
 .content-container {
-  padding: 120px 20px;
+  padding: 60px 20px;
   margin: 0 106px;
 }
 
@@ -208,8 +208,8 @@ footer .contact-box {
   border-radius: 10px;
 }
 
-footer h4 {
-  font-size: 48px;
+footer h3 {
+  font-size: 40px;
   font-family: var(--heading-font-family);
 }
 
@@ -257,10 +257,6 @@ footer .social-links a:hover {
   .project-description {
     padding: 120px;
     text-align: center;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .hero h1 {
